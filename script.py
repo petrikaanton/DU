@@ -1,11 +1,7 @@
 import math
-a=input("Zadaj spodnú hranicu intervalu:")
-b=input("Zadaj hornú hranicu intervalu:")
-x=input("Zadaj číslo:")
-x=int(x)
+a=input("Zadaj číslo:")
 a=int(a)
-b=int(b)
-if a<=x<=b:
-    print("Čislo patrí do intervalu")
+if a/2==a//2:
+    print("Číslo je párne")
 else:
-    print("číslo nepatrí do intervalu")
+    print("Číslo je nepárne")
