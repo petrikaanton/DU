@@ -1,10 +1,7 @@
 import math
-a=input("Zadaj stranu a:")
-b=input("Zadaj stranu b:")
-c=input("Zadaj stranu c:")
-a=float(a)
-b=float(b)
-c=float(c)
+a=float(input("Zadaj stranu a:"))
+b=float(input("Zadaj stranu b:"))
+c=float(input("Zadaj stranu c:"))
 if a+b>c and a+c>b and c+b>a:
     if a==b==c:
         print("trojuholník je rovnostranný")
